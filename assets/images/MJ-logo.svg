@@ -1,0 +1,30 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="goldGradientMJ" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD36B"/>
+      <stop offset="50%" stop-color="#F4B400"/>
+      <stop offset="100%" stop-color="#C89200"/>
+    </linearGradient>
+
+    <filter id="glowMJ">
+      <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#F4B400" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <!-- M -->
+  <text x="60" y="140"
+        font-family="Georgia, serif"
+        font-size="110"
+        fill="#F5F5F5">
+    M
+  </text>
+
+  <!-- J -->
+  <text x="135" y="150"
+        font-family="Brush Script MT, cursive"
+        font-size="120"
+        fill="url(#goldGradientMJ)"
+        filter="url(#glowMJ)">
+    J
+  </text>
+</svg>
